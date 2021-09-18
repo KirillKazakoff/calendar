@@ -1,0 +1,62 @@
+.widget {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.widget__header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.header__month__container {
+    display: flex;
+}
+
+.header__month {
+    position: relative;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.header__month::first-letter {
+    text-transform: capitalize;
+}
+
+.arrow {
+    cursor: pointer;
+    color: thistle;
+    width: 5%;
+}
+
+.arrow-left {
+    margin-right: auto;
+}
+
+.arrow-right {
+    margin-left: auto;
+}
+
+.header__weekdays {
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 76%;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid tan;
+}
+
+.widget__content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 41%;
+    display: flex;
+    flex-wrap: wrap;
+}

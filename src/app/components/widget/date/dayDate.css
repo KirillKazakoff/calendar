@@ -1,0 +1,46 @@
+.day-wrap {
+    display: flex;
+    justify-content: center;
+    width: 14.2%;
+}
+
+.day-wrap:nth-child(n+8) {
+    margin-top: 20px;
+}
+
+.day-wrap__now {
+    color: royalblue;
+}
+
+.day-wrap__previous {
+    color: silver;
+}
+
+.day-number-container {
+    cursor: pointer;
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.day-number {
+    position: relative;
+}
+
+.day-today {
+    color: lightcoral;
+}
+
+.selected {
+    left: 0;
+    top: -7px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 3px solid tan;
+}
+
+.selected__back {
+    background-color: tan;
+}
