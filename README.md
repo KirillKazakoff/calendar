@@ -1,1 +1,1 @@
-![Build status](https://ci.appveyor.com/api/projects/status/tkm0psa9eadbjg3a?svg=true)](https://ci.appveyor.com/project/KirillKazakoff/credcard)
+[![Build status](https://ci.appveyor.com/api/projects/status/6kayveop1jgyr3ur?svg=true)](https://ci.appveyor.com/project/KirillKazakoff/calendar)
